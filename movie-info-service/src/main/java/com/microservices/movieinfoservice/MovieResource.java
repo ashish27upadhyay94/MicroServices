@@ -11,7 +11,7 @@ import com.microservices.service.MovieService;
 
 @RestController
 @RequestMapping("/movies")
-public class MovieResource {
+public class MovieController {
 	@Autowired
 	private MovieService service;
 
